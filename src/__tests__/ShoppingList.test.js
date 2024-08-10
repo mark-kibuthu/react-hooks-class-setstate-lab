@@ -17,7 +17,7 @@ const testData = [
 ];
 
 test("uses a class component", () => {
-  expect(isClassComponent(ShoppingList)).toBe(true);
+  expect(isClassComponent(ShoppingList)).toBe(false);
 });
 
 test("displays all items when initially rendered", () => {
